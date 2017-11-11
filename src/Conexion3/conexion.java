@@ -41,6 +41,22 @@ public class conexion
         catch(ClassNotFoundException | SQLException e)
         {
          System.out.println("Error en la Conexion");
+         
+        //PASO 13 - DEFINICION METODOS PARA CONECTAR Y DESCONECTAR
+        public Connection conectar()
+        {
+            conex=null;
+            if(conex==null)
+            {
+                System.out.println("Conexion Finalizacion");
+                
+            }
+                
+        }
+            
+      
+          
+        }
         
   
          
